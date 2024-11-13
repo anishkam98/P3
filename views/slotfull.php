@@ -1,1 +1,1 @@
-<span class="error"><?php echo $_SESSION["formerror"];?></span>
+<span class="error">This time slot is full.</span>

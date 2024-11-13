@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             }
             else {
                 $_SESSION["timeslot"] = 'Invalid student';
-                include('views/formerror.php');
+                include('views/invalidinfo.php');
             }
             break;
         case 'confirm_update':
