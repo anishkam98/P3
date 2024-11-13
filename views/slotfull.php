@@ -1,0 +1,1 @@
+<span class="error"><?php echo $_SESSION["formerror"];?></span>
